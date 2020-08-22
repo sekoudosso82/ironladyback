@@ -6,9 +6,9 @@
 # #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 # #   Character.create(name: 'Luke', movie: movies.first)
 
-# # User.create(username: 'Nadi', password: 'Nadi', 
-# #             email:'sekou@gmail.com', phone: 646, 
-# #             profileImage:'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/75242118_2573241079379472_2090702402230419456_n.jpg?_nc_cat=103&_nc_sid=110474&_nc_ohc=mZ6XCNeuc1UAX82oUwZ&_nc_ht=scontent-lga3-1.xx&oh=4d0b8e9604ef59508d702e051735f068&oe=5EC8385F')
+User.create(username: 'Nadi', password: 'Nadi', 
+            email:'sekou@gmail.com', phone: 646, 
+            profileImage:'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/75242118_2573241079379472_2090702402230419456_n.jpg?_nc_cat=103&_nc_sid=110474&_nc_ohc=mZ6XCNeuc1UAX82oUwZ&_nc_ht=scontent-lga3-1.xx&oh=4d0b8e9604ef59508d702e051735f068&oe=5EC8385F')
 # # User.create(username: 'Ben', password: 'Ben', 
 # #             email:'ben@gmail.com', phone: 347,
 # #             profileImage:'https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12741994_10204184836740680_3136464450791401203_n.jpg?_nc_cat=104&_nc_sid=110474&_nc_ohc=mDboreBE-gEAX-bcNbx&_nc_ht=scontent-lga3-1.xx&oh=d6c8fe5c33811cfd90046b2a97e35acd&oe=5EC73AA5')
