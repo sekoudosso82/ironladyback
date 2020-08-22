@@ -13,7 +13,7 @@ class Api::V1::ShoppingCartsController < ApplicationController
             shoppingCart = ShoppingCart.find(params[:id])
             
             render json: shoppingCart,
-            include: [:user, :item],
+            include: [:user, :items],
             except: [:updated_at, :created_at]
             
             
